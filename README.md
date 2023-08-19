@@ -33,7 +33,8 @@ In today's digital age, people spend a substantial amount of time in front of co
     interval=5
 
 
-Execution: Run the script in a terminal. The script will display the image at the specified interval, reminding you to blink your eyes.
+* Execution: Run the script in a terminal. The script will display the image at the specified interval, reminding you to blink your eyes.
+
 
     chmod +x eyecare.sh
     ./eyecare.sh
