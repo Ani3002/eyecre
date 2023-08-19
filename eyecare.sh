@@ -11,6 +11,8 @@ interval=8
 
 # Function to display the image using feh
 display_image() {
+    prev_focused_window=$(xdotool getwindowfocus)
+
     screen_width=$(xdpyinfo | awk '/dimensions/{print $2}' | cut -d'x' -f1)
     screen_height=$(xdpyinfo | awk '/dimensions/{print $2}' | cut -d'x' -f2)
     
@@ -26,6 +28,9 @@ display_image() {
     feh --hide-pointer --geometry ${window_width}x${window_height}+${pos_x}+${pos_y} --on-root "$image_path" &
     sleep 0.08
     pkill -f "feh --hide-pointer"
+
+    # Restore focus to the previous window
+    xdotool windowactivate $prev_focused_window
 }
 
 # Function to bring the window to the top
