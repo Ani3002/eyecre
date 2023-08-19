@@ -45,4 +45,6 @@ In today's digital age, people spend a substantial amount of time in front of co
 The Eye Blink Reminder is intended to provide a simple reminder for eye blinking and should not replace professional advice. It's important to practice good computer habits, including regular breaks, proper lighting, and maintaining an ergonomic setup.
 Contributing
 
+## 
+
 Contributions, suggestions, and improvements are welcome! Feel free to fork this repository, make changes, and submit a pull request.
