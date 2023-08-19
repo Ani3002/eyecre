@@ -2,20 +2,20 @@
 
 Eye Blink Reminder
 
-##Overview
+## Overview
 
 The Eye Blink Reminder is a simple bash script that displays an image at regular intervals, reminding users to blink their eyes and avoid potential eye strain caused by prolonged computer usage. The script periodically opens a window with an image, giving your eyes a brief rest and lubrication.
 Motivation
 
 In today's digital age, people spend a substantial amount of time in front of computer screens, leading to increased risks of eye strain, dryness, and potential damage. Prolonged computer usage often results in reduced blinking frequency, leading to dry eyes and discomfort. This script aims to address this issue by prompting users to blink their eyes regularly.
 
-##Features:
+## Features:
  
- ###Displays an image at specified intervals to remind users to blink their eyes.
+ ### Displays an image at specified intervals to remind users to blink their eyes.
 
- ###The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
+ ### The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
 
- ###Customizable image path, padding, and time interval between reminders.
+ ### Customizable image path, padding, and time interval between reminders.
 
 
 Usage
