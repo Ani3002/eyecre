@@ -18,19 +18,19 @@ In today's digital age, people spend a substantial amount of time in front of co
 
 ## Usage
 
-*  Requirements:Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
-*   Image Selection: Set the image_path variable in the script to the desired image's path.
-*  Padding: You can adjust the padding variable to control the space between the image and the window.
- *   Interval: Modify the interval variable to set the time interval (in seconds) between reminders.  
+* Requirements:Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
+* Image Selection: Set the image_path variable in the script to the desired image's path.
+* Padding: You can adjust the padding variable to control the space between the image and the window.
+* Interval: Modify the interval variable to set the time interval (in seconds) between reminders.  
     
 
-    # Set the path to your PNG file
-    image_path="your_image.png"
-    # Set the padding in pixels
-    padding=10
+      # Set the path to your PNG file
+      image_path="your_image.png"
+      # Set the padding in pixels
+      padding=10
     
-    # Set the time interval in seconds
-    interval=5
+      # Set the time interval in seconds
+      interval=5
 
 
 * Execution: Run the script in a terminal. The script will display the image at the specified interval, reminding you to blink your eyes.
