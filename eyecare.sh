@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to your PNG file
-image_path="1.png"
+image_path="image.png"
 
 # Set the padding in pixels
 #padding=10
