@@ -8,15 +8,18 @@ Motivation
 
 In today's digital age, people spend a substantial amount of time in front of computer screens, leading to increased risks of eye strain, dryness, and potential damage. Prolonged computer usage often results in reduced blinking frequency, leading to dry eyes and discomfort. This script aims to address this issue by prompting users to blink their eyes regularly.
 
-Features
-Displays an image at specified intervals to remind users to blink their eyes.
-The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
-Customizable image path, padding, and time interval between reminders.
+Features:
+# Displays an image at specified intervals to remind users to blink their eyes.
+
+# The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
+
+# Customizable image path, padding, and time interval between reminders.
 
 
 Usage
 
-Requirements: Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
+Requirements:
+Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
     Image Selection: Set the image_path variable in the script to the desired image's path.
     Padding: You can adjust the padding variable to control the space between the image and the window.
     Interval: Modify the interval variable to set the time interval (in seconds) between reminders.
