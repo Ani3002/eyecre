@@ -16,16 +16,15 @@ In today's digital age, people spend a substantial amount of time in front of co
 * Customizable image path, padding, and time interval between reminders.
 
 
-Usage
+## Usage
 
-Requirements:
-Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
-    Image Selection: Set the image_path variable in the script to the desired image's path.
-    Padding: You can adjust the padding variable to control the space between the image and the window.
-    Interval: Modify the interval variable to set the time interval (in seconds) between reminders.
-    # Set the path to your PNG file
+* Requirements:Ensure you have the required dependencies installed: feh, xdotool, and wmctrl.
+ *   Image Selection: Set the image_path variable in the script to the desired image's path.
+  *  Padding: You can adjust the padding variable to control the space between the image and the window.
+ *   Interval: Modify the interval variable to set the time interval (in seconds) between reminders.  
     
 
+    # Set the path to your PNG file
     image_path="your_image.png"
     # Set the padding in pixels
     padding=10
