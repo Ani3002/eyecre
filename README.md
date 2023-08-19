@@ -11,11 +11,9 @@ In today's digital age, people spend a substantial amount of time in front of co
 
 ## Features:
  
- ### Displays an image at specified intervals to remind users to blink their eyes.
-
- ### The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
-
- ### Customizable image path, padding, and time interval between reminders.
+ Displays an image at specified intervals to remind users to blink their eyes.
+ The image is shown within a window at the center of the screen, allowing a quick break from the computer screen.
+ Customizable image path, padding, and time interval between reminders.
 
 
 Usage
